@@ -1,0 +1,24 @@
+
+
+puts"put in two numbers bro"
+numero1 = gets.chomp.to_i
+numero2 = gets.chomp.to_i
+
+puts numero1+numero2
+
+puts numero1-numero2
+
+puts numero1*numero2
+
+
+
+
+
+
+
+
+
+
+
+
+
