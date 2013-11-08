@@ -1,24 +1,15 @@
 
 
-puts"put in two numbers bro"
-numero1 = gets.chomp.to_i
-numero2 = gets.chomp.to_i
+bros = 0
+goes = 0
 
-puts numero1+numero2
-
-puts numero1-numero2
-
-puts numero1*numero2
+puts "Enter two numbers #{bros} + "" + #{goes}"
 
 
+puts bros+goes
 
+puts bros-goes
 
-
-
-
-
-
-
-
+puts bros*goes
 
 
