@@ -1,5 +1,4 @@
 class Numbers
-        
         def initialize(first_number, second_number)
                 @first_number  = first_number
                 @second_number = second_number
@@ -21,11 +20,13 @@ class Numbers
 
 end
 
-puts "enter first number"
-first_number = gets.chomp.to_i
 
-puts "enter second number"
-second_number = gets.chomp.to_i
+puts "enter a number foo"
+
+numba = gets.chomp.to_i
+
+numba.split(//)
+
 
 result = Numbers.new first_number, second_number
 
