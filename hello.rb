@@ -1,31 +1,31 @@
 class Numbers
         def initialize(first_number, second_number)
-                @first_number  = first_number
-                @second_number = second_number
+                @b  = b
+                @c = c
         end
 
         attr_accessor 'first_number', 'second_number'
 
         def sum
-                @first_number + @second_number
+                @b + @c
         end
 
         def diff
-                @first_number - @second_number
+                @b - @c
         end
 
         def product
-                @first_number * @second_number
+                @b * @c
         end
 
 end
 
 
-puts "enter a number foo"
+puts "enter 2 numbers foo"
 
-numba = gets.chomp.to_i
+full_muber=gets.chomp.to_i
 
-numba.split(//)
+muber = full_muber.split(' ')
 
 
 result = Numbers.new first_number, second_number
